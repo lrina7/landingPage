@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>LandingPage</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo"><img src="image/logo.svg" alt="logo" /></a>
+        <div class="header-info">
+          <nav>
+            <a href="#" class="header-link">About us</a>
+            <a href="#" class="header-link">Services</a>
+            <a href="#" class="header-link">Use Cases</a>
+            <a href="#" class="header-link">Pricing</a>
+            <a href="#" class="header-link">Blog</a>
+          </nav>
+          <button type="button" class="header-btn">Request a quote</button>
+        </div>
+      </header>
+
+      <main class="hero">
+        <div class="content">
+          <h1 class="content-title">
+            Navigating the digital landscape for success
+          </h1>
+          <p class="content-text">
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+          <button type="button" class="content-btn">Book a consultation</button>
+        </div>
+        <div class="image">
+          <img
+            class="img"
+            src="image/Illustration.svg"
+            alt="Digital Marketing"
+          />
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="case">
+          <p class="case-text">
+            For a local restaurant, we implemented a targeted PPC campaign that
+            resulted in a 50% increase in website traffic and a 25% increase in
+            sales.
+          </p>
+          <a href="#" class="case-link">Lear more</a>
+        </div>
+        <div class="case">
+          <p class="case-text">
+            For a B2B software company, we developed an SEO strategy that
+            resulted in a first page ranking for key keywords and a 200%
+            increase in organic traffic.
+          </p>
+          <a href="#" class="case-link">Lear more</a>
+        </div>
+        <div class="case">
+          <p class="case-text">
+            For a national retail chain, we created a social media marketing
+            campaign that increased followers by 25% and generated a 20%
+            increase in online sales.
+          </p>
+          <a href="#" class="case-link">Lear more</a>
+        </div>
+      </footer>
+    </div>
+    <div class="overlay hidden">
+      <div class="modal">
+        <form class="modal-form">
+          <label class="modal-label" for="name">Name</label>
+          <input
+            class="modal-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <label class="modal-label" for="email">Email*</label>
+          <input
+            class="modal-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <label class="modal-label" for="message">Message*</label>
+          <textarea
+            class="modal-textarea"
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <button class="modal-btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
